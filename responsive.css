@@ -1,0 +1,127 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1024px)
+{
+    h1
+    {
+        font-size: 45px;
+    }
+
+    h2
+    {
+        font-size: 25px;
+    }
+
+    .container
+    {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    header p
+    {
+        font-size: 21px;
+    }
+
+    .main-container
+    {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .number
+    {
+        font-size: 70px;
+        margin-bottom: 10px;
+        letter-spacing: 8px;
+        border-bottom: solid 2px rgb(180, 180, 180);
+        float: none;
+    }
+
+    .work-wrapper
+    {
+        width: auto;
+        margin-bottom: 150px;
+        float: none;
+        text-align: center;
+    }
+
+    .frame
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .work
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    .work-narrow
+    {
+        width: 65%;
+        height: auto;
+    }
+
+    .author
+    {
+        margin-right: 120px;
+    }
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 767px)
+{
+    h1
+    {
+        font-size: 40px;
+    }
+
+    .number
+    {
+        font-size: 62px;
+        margin-bottom: 10px;
+        letter-spacing: 8px;
+        border-bottom: solid 2px rgb(180, 180, 180);
+    }
+
+    .work-wrapper
+    {
+        width: auto;
+        margin-bottom: 100px;
+        float: none;
+        text-align: center;
+    }
+
+    .frame
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .work
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    .work-narrow
+    {
+        width: 65%;
+        height: auto;
+    }
+
+    .author
+    {
+        font-size: 25px;
+        display: block;
+        margin: 25px 50px;
+    }
+
+    .title
+    {
+        font-size: 25px;
+        display: block;
+        margin: 25px 50px;
+    }
+}
