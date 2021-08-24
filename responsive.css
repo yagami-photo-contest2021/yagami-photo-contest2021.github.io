@@ -3,12 +3,12 @@
 {
     h1
     {
-        font-size: 45px;
+        font-size: 45px;/*50 45 40*/
     }
 
     h2
     {
-        font-size: 25px;
+        font-size: 25px;/*25 25 25*/
     }
 
     .container
@@ -19,7 +19,7 @@
 
     header p
     {
-        font-size: 21px;
+        font-size: 21px;/*23 21 21*/
     }
 
     .main-container
@@ -30,7 +30,7 @@
 
     .number
     {
-        font-size: 70px;
+        font-size: 70px;/*80 70 62*/
         margin-bottom: 10px;
         letter-spacing: 8px;
         border-bottom: solid 2px rgb(180, 180, 180);
@@ -59,7 +59,7 @@
 
     .work-narrow
     {
-        width: 65%;
+        width: 50%;
         height: auto;
     }
 
@@ -107,21 +107,27 @@
 
     .work-narrow
     {
-        width: 65%;
+        width: 50%;
         height: auto;
     }
 
     .author
     {
-        font-size: 25px;
+        font-size: 22px;/*25 25 22*/
         display: block;
         margin: 25px 50px;
     }
 
     .title
     {
-        font-size: 25px;
+        font-size: 22px;/*25 25 22*/
         display: block;
         margin: 25px 50px;
+    }
+
+    .comment
+    {
+        font-size: 18px;/*20 20 18*/
+        margin-top: 10px;
     }
 }
