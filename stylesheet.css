@@ -6,7 +6,7 @@
 body
 {
     margin: 0;
-    font-family: "Hiragino Kaku Gothic ProN";
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
 h1
@@ -202,11 +202,23 @@ footer
 {
     color: inherit;
     font-size: 20px;
+    margin-right: 25px;
 }
 
 .twitter:hover
 {
     color: #00acee;
+}
+
+.instagram
+{
+    color: inherit;
+    font-size: 20px;
+}
+
+.instagram:hover
+{
+    color: #F26939;
 }
 
 .official
@@ -217,7 +229,7 @@ footer
 
 .official:hover
 {
-    color: orangered;
+    color: yellowgreen;
 }
 
 .copyright
