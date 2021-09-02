@@ -101,17 +101,33 @@ header p
     padding-top: 50px;
 }
 
+.place
+{
+    color: rgb(67, 67, 67);
+    font-size: 50px;
+    padding-top: 80px;
+    border-bottom: solid 2px rgb(180, 180, 180);
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.votes
+{
+    color: rgb(67, 67, 67);
+    font-size: 25px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.main-top-wrapper .work-wrapper
+{
+    margin-bottom: 150px;
+}
+
 .main-wrapper
 {
     padding: 100px 0 20px 0;
     background-color: rgb(239, 236, 230);
-}
-
-.main-container
-{
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
 }
 
 .number
@@ -123,6 +139,7 @@ header p
     margin-right: 80px;
     border-bottom: solid 2px rgb(180, 180, 180);
     float: left;
+    text-align: left;
 }
 
 .work-wrapper
@@ -130,6 +147,7 @@ header p
     width: 950px;
     margin-bottom: 200px;
     float: left;
+    text-align: center;
 }
 
 .frame
