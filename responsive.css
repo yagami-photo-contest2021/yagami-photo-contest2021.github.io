@@ -22,10 +22,25 @@
         font-size: 21px;/*23 21 21*/
     }
 
-    .main-container
+    .place
     {
-        width: 98%;
-        margin: 0 auto;
+        font-size: 45px;/*50 45 40*/
+        padding-top: 80px;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+
+    .votes
+    {
+        font-size: 25px;
+        padding-right: 50px;
+        margin-bottom: 0px;
+        text-align: right;
+    }
+
+    .main-top-wrapper .work-wrapper
+    {
+        margin-bottom: 100px;/*150 100 50*/
     }
 
     .number
@@ -40,7 +55,7 @@
     .work-wrapper
     {
         width: auto;
-        margin-bottom: 150px;
+        margin-bottom: 150px;/*200 150 100*/
         float: none;
         text-align: center;
     }
@@ -80,6 +95,26 @@
     .theme-summary
     {
         font-size: 18px;/*19 19 18*/
+    }
+
+    .place
+    {
+        font-size: 40px;/*50 45 40*/
+        padding-top: 80px;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+
+    .votes
+    {
+        font-size: 25px;
+        padding-right: 50px;
+        text-align: right;
+    }
+
+    .main-top-wrapper .work-wrapper
+    {
+        margin-bottom: 50px;
     }
 
     .number
